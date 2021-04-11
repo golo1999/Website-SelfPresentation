@@ -1,0 +1,45 @@
+body {
+  font-family: Futura,Trebuchet MS,Arial,sans-serif;
+  background: #6AB8E7;
+}
+
+#floatingInput + label {
+  color: #4061AC;
+}
+
+textarea {
+  outline: none;
+}
+
+textarea::-webkit-input-placeholder {
+  color: #4061AC;
+}
+
+textarea:-ms-input-placeholder {
+  color: #4061AC;
+}
+
+textarea::-ms-input-placeholder {
+  color: #4061AC;
+}
+
+textarea::placeholder {
+  color: #4061AC;
+}
+
+#footer {
+  background-color: #4061AC;
+  color: white;
+}
+
+#footer > a {
+  color: white;
+  text-decoration: none;
+  -webkit-transition: .33s ease;
+  transition: .33s ease;
+}
+
+#footer > a:hover {
+  color: #F18134;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,32 @@
+{
+  "name": "33",
+  "version": "1.0.0",
+  "description": "Self presentation website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/golo1999/Website-SelfPresentation.git"
+  },
+  "author": "George-Alexandru Gologan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/golo1999/Website-SelfPresentation/issues"
+  },
+  "homepage": "https://github.com/golo1999/Website-SelfPresentation#readme",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mongo": "^0.1.0",
+    "mongodb": "^3.6.6",
+    "nodemailer": "^6.5.0",
+    "nodemailer-mailgun-transport": "^2.0.3",
+    "nodemon": "^2.0.7"
+  }
+}

@@ -1,0 +1,41 @@
+body
+{
+    font-family: Futura,Trebuchet MS,Arial,sans-serif;
+    background: #6AB8E7;
+}
+
+#floatingInput
+{
+    &+label
+    {
+        color: #4061AC;
+    }
+}
+
+textarea
+{
+    outline: none;
+
+    &::placeholder
+    {
+        color: #4061AC;
+    }
+}
+
+#footer
+{
+    background-color: #4061AC;
+    color: white;
+
+    & > a
+    {
+        color: white;
+        text-decoration: none;
+        transition: .33s ease;
+
+        &:hover
+        {
+            color: #F18134;
+        }
+    }
+}
