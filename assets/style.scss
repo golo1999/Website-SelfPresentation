@@ -22,6 +22,24 @@ textarea
     }
 }
 
+#custom-cards
+{
+    & .card > div
+    {
+        transition: .6s ease;
+
+        &:hover
+        {
+            cursor: pointer;
+        }
+
+        & > h2
+        {
+            font-size: 2.5vmax;
+        }
+    }
+}
+
 #footer
 {
     background-color: #4061AC;
