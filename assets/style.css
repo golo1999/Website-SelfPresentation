@@ -1,10 +1,10 @@
 body {
-  font-family: Futura,Trebuchet MS,Arial,sans-serif;
-  background: #6AB8E7;
+  font-family: Futura, Trebuchet MS, Arial, sans-serif;
+  background: #6ab8e7;
 }
 
 #floatingInput + label {
-  color: #4061AC;
+  color: #4061ac;
 }
 
 textarea {
@@ -12,24 +12,24 @@ textarea {
 }
 
 textarea::-webkit-input-placeholder {
-  color: #4061AC;
+  color: #4061ac;
 }
 
 textarea:-ms-input-placeholder {
-  color: #4061AC;
+  color: #4061ac;
 }
 
 textarea::-ms-input-placeholder {
-  color: #4061AC;
+  color: #4061ac;
 }
 
 textarea::placeholder {
-  color: #4061AC;
+  color: #4061ac;
 }
 
 #custom-cards .card > div {
-  -webkit-transition: .6s ease;
-  transition: .6s ease;
+  -webkit-transition: 0.6s ease;
+  transition: 0.6s ease;
 }
 
 #custom-cards .card > div:hover {
@@ -41,18 +41,18 @@ textarea::placeholder {
 }
 
 #footer {
-  background-color: #4061AC;
+  background-color: #4061ac;
   color: white;
 }
 
 #footer > a {
   color: white;
   text-decoration: none;
-  -webkit-transition: .33s ease;
-  transition: .33s ease;
+  -webkit-transition: 0.33s ease;
+  transition: 0.33s ease;
 }
 
 #footer > a:hover {
-  color: #F18134;
+  color: #f18134;
 }
 /*# sourceMappingURL=style.css.map */

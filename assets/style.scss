@@ -1,59 +1,47 @@
-body
-{
-    font-family: Futura,Trebuchet MS,Arial,sans-serif;
-    background: #6AB8E7;
+body {
+  font-family: Futura, Trebuchet MS, Arial, sans-serif;
+  background: #6ab8e7;
 }
 
-#floatingInput
-{
-    &+label
-    {
-        color: #4061AC;
+#floatingInput {
+  & + label {
+    color: #4061ac;
+  }
+}
+
+textarea {
+  outline: none;
+
+  &::placeholder {
+    color: #4061ac;
+  }
+}
+
+#custom-cards {
+  & .card > div {
+    transition: 0.6s ease;
+
+    &:hover {
+      cursor: pointer;
     }
-}
 
-textarea
-{
-    outline: none;
-
-    &::placeholder
-    {
-        color: #4061AC;
+    & > h2 {
+      font-size: 2.5vmax;
     }
+  }
 }
 
-#custom-cards
-{
-    & .card > div
-    {
-        transition: .6s ease;
+#footer {
+  background-color: #4061ac;
+  color: white;
 
-        &:hover
-        {
-            cursor: pointer;
-        }
-
-        & > h2
-        {
-            font-size: 2.5vmax;
-        }
-    }
-}
-
-#footer
-{
-    background-color: #4061AC;
+  & > a {
     color: white;
+    text-decoration: none;
+    transition: 0.33s ease;
 
-    & > a
-    {
-        color: white;
-        text-decoration: none;
-        transition: .33s ease;
-
-        &:hover
-        {
-            color: #F18134;
-        }
+    &:hover {
+      color: #f18134;
     }
+  }
 }
